@@ -55,7 +55,7 @@ const AddUser = (props) => {
       )}
       <Card className={styles.input}>
         <form onSubmit={addUserHandler}>
-          <label htmlFor="username">Usernme</label>
+          <label htmlFor="username">Username</label>
           <input
             id="username"
             type="text"
